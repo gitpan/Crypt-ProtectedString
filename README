@@ -1,0 +1,37 @@
+Crypt-ProtectedString version 0.00_01
+=====================================
+
+This module is still in very, very early development.  It is by no means stable
+or production ready!  Please read the documentation provided inside the module 
+code (POD) for the disclaimer and copyright/license information.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Module::Pluggable
+  Digest::SHA1
+  Crypt::RSA
+  Crypt::RSA::Key::Public
+  Crypt::RSA::Key::Private
+  Carp (not yet used)
+
+...maybe others.  I'll update the list when I have time for further development.
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 by Ido Rosen
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, or under the BSD license.
+

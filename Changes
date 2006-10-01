@@ -1,0 +1,7 @@
+Revision history for Perl extension Crypt::ProtectedString.
+
+0.00_01  Sun Oct  1 12:17:39 2006
+        - threw in pre-alpha module code and documentation.
+	- original version; created by h2xs 1.23 with options
+		-XBA -n Crypt::ProtectedString
+

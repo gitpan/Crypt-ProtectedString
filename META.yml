@@ -1,0 +1,16 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Crypt-ProtectedString
+version:      0.00_01
+version_from: lib/Crypt/ProtectedString.pm
+installdirs:  site
+requires:
+    Carp:                          0
+    Crypt::RSA:                    0
+    Crypt::RSA::Key::Private:      0
+    Crypt::RSA::Key::Public:       0
+    Digest::SHA1:                  0
+    Module::Pluggable:             0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

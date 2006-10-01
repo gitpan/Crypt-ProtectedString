@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Crypt-ProtectedString.t
+lib/Crypt/ProtectedString.pm
+lib/Crypt/ProtectedString/Types/Base.pm
+META.yml                                 Module meta-data (added by MakeMaker)
